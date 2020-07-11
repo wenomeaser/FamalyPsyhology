@@ -1,7 +1,8 @@
 import React from 'react';
+import cl from './Header-nav.module.css';
 const HeaderNav = () =>{
    return( 
-    <div className='header-nav'><a href=''>
+    <div className={cl.nav}><a href=''>
         Главная
       </a>
       <a href=''>

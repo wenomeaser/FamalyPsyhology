@@ -1,0 +1,13 @@
+.nav{
+  grid-area: nav;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: repeat(5, minmax(200px,auto));
+   }
+   .nav a{
+    color: white ;
+    text-decoration: none;
+   }
+  
+  

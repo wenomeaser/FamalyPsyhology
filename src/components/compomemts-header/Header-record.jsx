@@ -1,8 +1,9 @@
 import React from 'react';
+import cl from './Header-record.module.css';
 
 const HeaderRecord = () =>{
    return( 
-      <div className='header-record'>
+      <div className={cl.texts}>
 Record
       </div>
    )

@@ -3,27 +3,4 @@
   grid-template-columns: 1fr; 
   grid-template-rows: repeat(5, minmax(700px,auto));
  }
- .header {
-   display: grid;
-   grid-template-areas: 
-   "nav nav"
-   "texts record"
-   "texts record"
-   "texts record"
-   "texts record";
-   justify-items: center;
-   background-image: url(img/header-bg.jpg);
- }
- .header-nav{
-grid-area: nav;
-display: grid;
-justify-items: center;
-align-items: center;
-grid-template-columns: repeat(5, minmax(200px,auto));
- }
- .header-texts{
-  grid-area: texts;
- }
- .header-record{
-  grid-area: record;
- }
+

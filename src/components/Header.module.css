@@ -1,0 +1,13 @@
+.header {
+   display: grid;
+   grid-template-areas: 
+   "nav nav"
+   "texts record"
+   "texts record"
+   "texts record"
+   "texts record";
+   justify-items: center;
+   background-image: url(img/header-bg.jpg);
+   width: 1920px;
+   height: 700px;
+ }
