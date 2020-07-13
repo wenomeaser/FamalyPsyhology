@@ -1,7 +1,7 @@
 import React from 'react';
+import cl from "./MainBlock.module.css";
 
-
-const Content = () => {
+const MainBlock = () => {
   return (
    
     <div className='content'>Main content</div>
@@ -10,4 +10,4 @@ const Content = () => {
 }
 
 
-export default Content;
+export default MainBlock;

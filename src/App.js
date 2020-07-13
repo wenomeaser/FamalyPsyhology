@@ -1,14 +1,16 @@
 import React from 'react';
 import './App.css';
-import Header from './components/Header';
-import Content from './components/Content';
+
+import MainBlock from './components/MainBlock/MainBlock';
+import Header from './components/Header/Header';
+
 
 
 const App = () => {
   return (
     <div className='app-wrapper'>
     <Header/>
-    <Content/>
+    <MainBlock/>
     </div>
   );
 }

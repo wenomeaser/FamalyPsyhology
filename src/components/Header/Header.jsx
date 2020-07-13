@@ -1,7 +1,7 @@
 import React from 'react';
-import HeaderNav from './compomemts-header/Header-nav';
-import HeaderTexts from './compomemts-header/Header-texts';
-import HeaderRecord from './compomemts-header/Header-record';
+import HeaderNav from './components-header/Navbar/Header-nav';
+import HeaderTexts from './components-header/Texts/Header-texts';
+import HeaderRecord from './components-header/Record/Header-record';
 import cl from "./Header.module.css";
 const Header = () =>{
    return( <div>
